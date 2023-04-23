@@ -1,9 +1,16 @@
-#logo{
-  background: black;
-  padding: 0;
+:root{
+    --bg-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: #ffae00;
+    --big-font: 7rem;
+    --p-font: 1.1rem;
+}
+.logo{
+  color: var(--text-color);
+  font-size: 41px;
+  font-weight: 600;
   
 }
-.span{
-  color: red;
-  padding: 0;
+.logo span{
+ color: var(--main-color);
 }
